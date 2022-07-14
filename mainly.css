@@ -1,0 +1,157 @@
+.main_container {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  margin: 20px 0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 120px 330px;
+  justify-content: center;
+  padding: 10px 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.5rem;
+  background-color: coral;
+}
+
+.btn {
+  width: 100%;
+}
+
+.text .text1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.product_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product_grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.product_list {
+  display: grid;
+  border: solid 1px grey;
+  margin: 10px;
+  text-align: center;
+}
+
+.product_image {
+  width: 14rem;
+  height: 14rem;
+}
+
+.cart_container {
+  margin: 10px;
+  border: solid 1px gray;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+}
+.checkout {
+  text-align: center;
+}
+.cart_head {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: coral;
+}
+.item_container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas:
+    "image page price"
+    ". remove .";
+  column-gap: 1.5rem;
+}
+.item_img {
+  width: 50%;
+  border: solid 2px black;
+  margin: 5px 15px 15px;
+}
+.item_description {
+  font-size: 2rem;
+}
+.item_price {
+  font-weight: bold;
+}
+.item_button {
+  font-size: 1rem;
+}
+
+.image {
+  grid-area: image;
+}
+.page {
+  grid-area: page;
+}
+.price {
+  grid-area: price;
+}
+.remove {
+  grid-area: remove;
+}
+.total {
+  float: left;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.total_amount {
+  float: right;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.end {
+  margin-top: 7rem;
+}
+.productpage_grid {
+  display: grid;
+  grid-template-areas: "images description cart1";
+}
+.images {
+  grid-area: images;
+}
+.description {
+  grid-area: description;
+}
+
+.productimage_grid {
+  display: grid;
+  margin-right: 2rem;
+}
+.largeimage {
+  width: 20rem;
+  height: 20rem;
+  margin-left: 10px;
+}
+.smallimage {
+  width: 5rem;
+  height: 5rem;
+  margin-top: -15rem;
+  margin-left: 10px;
+  border: solid 1px black;
+  border-radius: 10%;
+}
+.overview {
+  margin-top: 2rem;
+}
+
+.login-container{
+  margin-top: 6rem;
+}
